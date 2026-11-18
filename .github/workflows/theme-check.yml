@@ -1,0 +1,22 @@
+name: HABIT Theme Check
+on:
+  push:
+    branches: [habit-shopify]
+  pull_request:
+    branches: [habit-shopify]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  theme-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Liquid and theme JSON
+        uses: Shopify/theme-check-action@v2
+        with:
+          theme_root: '.'
+          flags: '--fail-level warning'
+      - name: Check JavaScript syntax
+        run: node --check assets/sora.js
