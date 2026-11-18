@@ -1,0 +1,59 @@
+[
+  {
+    "title": "The Everyday Thank You",
+    "description": "Sample gift box. Fictional product for portfolio demonstration.",
+    "variants": [
+      {
+        "title": "Signature box",
+        "price": "45.00"
+      },
+      {
+        "title": "Grande box",
+        "price": "60.00"
+      },
+      {
+        "title": "Seasonal edition",
+        "price": "45.00",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "A Moment of Calm",
+    "description": "Sample gift box. Fictional product for portfolio demonstration.",
+    "variants": [
+      {
+        "title": "Signature box",
+        "price": "65.00"
+      },
+      {
+        "title": "Grande box",
+        "price": "80.00"
+      },
+      {
+        "title": "Seasonal edition",
+        "price": "65.00",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "The Celebration Box",
+    "description": "Sample gift box. Fictional product for portfolio demonstration.",
+    "variants": [
+      {
+        "title": "Signature box",
+        "price": "85.00"
+      },
+      {
+        "title": "Grande box",
+        "price": "100.00"
+      },
+      {
+        "title": "Seasonal edition",
+        "price": "85.00",
+        "available": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "sora-shopify-portfolio-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node DOM-test-reference.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "31.0.1"
+  }
+}
