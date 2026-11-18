@@ -1,0 +1,27 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "HABIT.coo Demo",
+    "theme_author": "Jacky Felix Lee (AI-assisted portfolio project)",
+    "theme_version": "1.1.0",
+    "theme_documentation_url": "https://shopify.dev/docs/storefronts/themes",
+    "theme_support_url": "https://github.com/Meta2323"
+  },
+  {
+    "name": "Brand",
+    "settings": [
+      {
+        "type": "text",
+        "id": "brand_name",
+        "label": "Brand name",
+        "default": "HABIT.coo"
+      },
+      {
+        "type": "text",
+        "id": "brand_tagline",
+        "label": "Brand tagline",
+        "default": "THOUGHTFUL HAMPERS"
+      }
+    ]
+  }
+]
